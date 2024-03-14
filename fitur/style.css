@@ -1,0 +1,51 @@
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header, nav, section, article, aside, footer {
+            display: block;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #68652e;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: #34310a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Main Content Styles */
+        section {
+            padding: 20px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #34310a;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Media Queries for responsiveness */
+        @media only screen and (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+        }
